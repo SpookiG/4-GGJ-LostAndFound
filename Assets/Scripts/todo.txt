@@ -1,0 +1,37 @@
+Code
+
+
+Audio effects scripts (so for ship thrusters for example, or any audio triggered by anything else)
+If time, have a think about game feel for the player ship
+
+
+
+
+Which dialogue could we have?
+    (from start of game) Start instance 1 (Specify controls) + (timer from previous dialogue section) Prompt user out of game window to look somewhere else
+    (from start of game) Start instance 2
+    (Collide ships) Finish game
+    (from GameLoader) Finish game from other instance
+    (from start of game) Start superfluous instance
+
+
+5. make sure dialogue doesn't overrun itself (specifically the long cutscene from instance1) (I think this is done now)
+6. change ship colours?
+
+
+
+
+
+
+
+
+
+
+Config
+
+Need some music sources
+The positioning of the environment parts
+    If these are trees, there may be some setup required
+
+Dialogue
+Set up some colliders on the player and environment?
